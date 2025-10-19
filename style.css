@@ -1,0 +1,94 @@
+/* === Reset and base styles === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f9fafc;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* === Headings === */
+h1, h2, h3 {
+  color: #222;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  border-bottom: 3px solid #4b8ef7;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 25px;
+}
+
+/* === Links and Buttons === */
+a {
+  color: #4b8ef7;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #1d5fd1;
+}
+
+button {
+  background-color: #4b8ef7;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #1d5fd1;
+}
+
+/* === Containers and Layout === */
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* === Lists === */
+ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+li {
+  background: #f2f4f8;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+li:hover {
+  background: #e7ebf5;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
+  font-size: 0.9rem;
+}
